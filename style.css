@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.icecream{
+  background: #393462;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper{
+    padding-top: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icecream__cream{
+  width: 200px;
+  height: 280px;
+  background: #fff1c1;
+  border-radius: 150px 150px 40px 40px ;
+}
+
+.icecream__shadow{
+      width: 40px;
+      height: 20px;
+      background: #a64942
+}
+
+.icecream__stick{
+    width: 40px;
+    height: 70px;
+    border-radius: 0 0 10px 10px;
+    background: #fe5f55;
+}

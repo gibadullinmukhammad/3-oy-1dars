@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.flag {
+  background: #000;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  padding: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag__general {
+  width: 400px;
+  height: 300px;
+  background: rgb(203, 29, 29);
+  overflow: hidden;
+  position: relative;
+}
+
+.flag__item {
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    transform: rotate(40deg);
+    position: absolute;
+    left: -100px;
+    top: -60px;
+}
+
+
+.flag__item:nth-child(1){
+   left: 300px;
+   top: 20px;
+   left: -100px;
+
+}
+.flag__item:nth-child(2){
+    top: 100px;
+    
+
+}
+.flag__item:nth-child(3){
+ 
+  top: 170px;
+  
+    
+
+}
